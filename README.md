@@ -1,5 +1,3 @@
-# micropython-p115 README
-
 # micropython-p115
 
 This project is a MicroPython library for interacting with the Tapo P115 smart plug. It provides a simple interface to control the plug, including turning it on and off, toggling its state, and retrieving device information.
@@ -19,8 +17,7 @@ This approach requires an active network connection.
 
 ```bash
 import mip
-TODO: Fix the syntax here once it's figured out.
-mip install https://github.com/yourusername/micropython-p115.git
+mip.install("github:ericmvaughn/micropython-p115/p115.py")
 ```
 
 ## Usage
